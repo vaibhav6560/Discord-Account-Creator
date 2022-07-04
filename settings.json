@@ -1,0 +1,17 @@
+{
+    "capmonster_key": "",
+    "invite_code": "",
+
+
+    "print_fails_y_or_n": "y",
+    "print_captcha_key_y_or_n": "n",
+    "print_fingerprint_y_or_n": "y",
+    "print_task_id_key_y_or_n": "y",
+    "print_email_y_or_n": "y",
+
+    
+    "random_letters_after_token_username_y_or_n": "y",
+    "tokens_username": "bot",
+    "tokens_password": "BlobsToolsOnTop!"
+
+}
