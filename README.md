@@ -15,6 +15,7 @@ Setup:
 11. open settings.json and enter your capmonster key and invite code, if you want you can change the other settings but standard will work fine
 12. open start.bat
 13. pick what you wanna do
+
 #-----------------
 
 Info:
