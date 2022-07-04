@@ -12,7 +12,7 @@ Setup:
 8. wait until downloaded
 9. click close
 10. open setup.bat
-11. open settings.json and enter your capmonster key and invite code, if you want you can change the other settings but standard will work fine
+11. open settings.json and enter your capmonster key (get key at capmonster.cloud and you need add funds) and invite code, if you want you can change the other settings but standard will work fine
 12. open start.bat
 13. pick what you wanna do
 
