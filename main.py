@@ -36,7 +36,6 @@ import os
 
 
 
-
 try:
     import os
     os.system("title " + "Discord Account Creator,   Made By blob#0005,   Github: github.com/blob0005")
@@ -130,6 +129,7 @@ cap = capmonster_python.HCaptchaTask(api_key)
 def gen():
     try:
         while True:
+
             session = requests.session()
             
             if use_proxies == "y":
@@ -143,8 +143,7 @@ def gen():
                     if print_taskid == "n":
                         print(colorama.Fore.GREEN + "[+] Succsesfully Got Task Id")
                     break
-                except Exception as e:
-                    print(str(e))
+                except Exception:
                     if print_fails == "y":
                         print(colorama.Fore.RED + "[-] Failed To Get Task Id, Retrying")
 
