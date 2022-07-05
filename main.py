@@ -236,6 +236,9 @@ def gen():
                     if print_fails == "y":
                         print(colorama.Fore.RED + "[-] Failed To Create Account")
                     break
+                if "400" not in res and "429" not in res and "200" not in res:
+                    if print_fails == "y":
+                        print(colorama.Fore.RED + "[-] Unkown Error")     
             if str(threads) == "1":
                 print(colorama.Fore.LIGHTGREEN_EX + "------------------------")
     except:
